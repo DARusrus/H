@@ -4,7 +4,7 @@
 
 <br/>
 
-[![typing-svg](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=4facde&center=true&vCenter=true&multiline=true&width=800&height=80&lines=Retinex+Decomposition+%2B+Frequency+Attention;21.63+dB+PSNR+on+LOL+v1+%E2%80%94+Surpassing+SNR-Net+SOTA;Generalises+Zero-Shot+to+LOL+v2+%26+MIT-Adobe+FiveK)](https://git.io/typing-svg)
+[![typing-svg](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=4facde&center=true&vCenter=true&multiline=true&width=800&height=80&lines=Retinex+Decomposition+%2B+Frequency+Attention;21.63+dB+PSNR+%E2%80%94+Surpassing+SNR-Net+SOTA;Zero-Shot+Transfer%3A+LOL+v2+%26+FiveK)](https://git.io/typing-svg)
 
 <br/>
 
