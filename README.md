@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=RetinexFreqUNet&fontSize=68&fontColor=ffffff&fontAlignY=38&desc=Low-Light%20Image%20Enhancement%20%7C%20Beats%20SOTA%20on%20LOL%20Benchmark&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a1628,40:0d2137,70:1a6b9a,100:4facde&height=220&section=header&text=RetinexFreqUNet&fontSize=68&fontColor=e8f4fc&fontAlignY=38&desc=Low-Light%20Image%20Enhancement%20%7C%20Beats%20SOTA%20on%20LOL%20Benchmark&descAlignY=58&descSize=18&animation=fadeIn" width="100%"/>
 
 <br/>
 
-[![typing-svg](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=7C6AF7&center=true&vCenter=true&multiline=true&width=800&height=80&lines=Retinex+Decomposition+%2B+Frequency+Attention;21.63+dB+PSNR+on+LOL+v1+%E2%80%94+Surpassing+SNR-Net+SOTA;Generalises+Zero-Shot+to+LOL+v2+%26+MIT-Adobe+FiveK)](https://git.io/typing-svg)
+[![typing-svg](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=800&color=4facde&center=true&vCenter=true&multiline=true&width=800&height=80&lines=Retinex+Decomposition+%2B+Frequency+Attention;21.63+dB+PSNR+on+LOL+v1+%E2%80%94+Surpassing+SNR-Net+SOTA;Generalises+Zero-Shot+to+LOL+v2+%26+MIT-Adobe+FiveK)](https://git.io/typing-svg)
 
 <br/>
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![CUDA](https://img.shields.io/badge/CUDA-11.8%2B-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![License](https://img.shields.io/badge/License-MIT-7C6AF7?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-1a6b9a?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Complete-2ecc71?style=for-the-badge)
 
 <br/>
@@ -70,15 +70,15 @@ This project follows **strict scientific discipline**:
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {
-  'primaryColor': '#302b63',
-  'primaryTextColor': '#ffffff',
-  'primaryBorderColor': '#7C6AF7',
-  'lineColor': '#7C6AF7',
-  'secondaryColor': '#0f0c29',
-  'tertiaryColor': '#24243e',
-  'edgeLabelBackground': '#302b63',
-  'clusterBkg': '#24243e',
-  'titleColor': '#ffffff'
+  'primaryColor': '#0d2137',
+  'primaryTextColor': '#e8f4fc',
+  'primaryBorderColor': '#4facde',
+  'lineColor': '#4facde',
+  'secondaryColor': '#0a1628',
+  'tertiaryColor': '#0f2a40',
+  'edgeLabelBackground': '#0d2137',
+  'clusterBkg': '#0f2a40',
+  'titleColor': '#e8f4fc'
 }}}%%
 flowchart TD
     INPUT([🌑 Dark Input Image\nx ∈ 0,1 ³ˣᴴˣᵂ]) --> PAD[Reflect Pad\nto 16× boundary]
@@ -121,10 +121,10 @@ flowchart TD
     ENC3 -.->|skip e3| DEC3
     ENC4 -.->|skip e4| DEC4
 
-    style RETINEX fill:#24243e,stroke:#7C6AF7,stroke-width:2px
-    style INPUT fill:#0f0c29,stroke:#7C6AF7,color:#fff
-    style OUTPUT fill:#0f0c29,stroke:#2ecc71,color:#fff
-    style FREQ fill:#302b63,stroke:#7C6AF7,color:#fff
+    style RETINEX fill:#0f2a40,stroke:#4facde,stroke-width:2px
+    style INPUT fill:#0a1628,stroke:#4facde,color:#e8f4fc
+    style OUTPUT fill:#0a1628,stroke:#4facde,color:#e8f4fc
+    style FREQ fill:#0d2137,stroke:#4facde,color:#e8f4fc
 ```
 
 ---
@@ -133,24 +133,24 @@ flowchart TD
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {
-  'primaryColor': '#302b63',
-  'primaryTextColor': '#ffffff',
-  'primaryBorderColor': '#7C6AF7',
-  'lineColor': '#7C6AF7',
-  'secondaryColor': '#0f0c29',
-  'tertiaryColor': '#24243e',
-  'actorBkg': '#302b63',
-  'actorBorder': '#7C6AF7',
-  'actorTextColor': '#ffffff',
-  'signalColor': '#7C6AF7',
-  'signalTextColor': '#ffffff',
-  'labelBoxBkgColor': '#24243e',
-  'labelBoxBorderColor': '#7C6AF7',
-  'labelTextColor': '#ffffff',
-  'loopTextColor': '#ffffff',
-  'noteBkgColor': '#24243e',
-  'noteBorderColor': '#7C6AF7',
-  'noteTextColor': '#ffffff'
+  'primaryColor': '#0d2137',
+  'primaryTextColor': '#e8f4fc',
+  'primaryBorderColor': '#4facde',
+  'lineColor': '#4facde',
+  'secondaryColor': '#0a1628',
+  'tertiaryColor': '#0f2a40',
+  'actorBkg': '#0d2137',
+  'actorBorder': '#4facde',
+  'actorTextColor': '#e8f4fc',
+  'signalColor': '#4facde',
+  'signalTextColor': '#e8f4fc',
+  'labelBoxBkgColor': '#0f2a40',
+  'labelBoxBorderColor': '#4facde',
+  'labelTextColor': '#e8f4fc',
+  'loopTextColor': '#e8f4fc',
+  'noteBkgColor': '#0f2a40',
+  'noteBorderColor': '#4facde',
+  'noteTextColor': '#e8f4fc'
 }}}%%
 sequenceDiagram
     autonumber
@@ -379,12 +379,12 @@ result.save("enhanced.png")
 
 ```mermaid
 %%{init: {'theme': 'base', 'themeVariables': {
-  'primaryColor': '#302b63',
-  'primaryTextColor': '#ffffff',
-  'primaryBorderColor': '#7C6AF7',
-  'lineColor': '#7C6AF7',
-  'secondaryColor': '#0f0c29',
-  'tertiaryColor': '#24243e'
+  'primaryColor': '#0d2137',
+  'primaryTextColor': '#e8f4fc',
+  'primaryBorderColor': '#4facde',
+  'lineColor': '#4facde',
+  'secondaryColor': '#0a1628',
+  'tertiaryColor': '#0f2a40'
 }}}%%
 flowchart LR
     A["❌ Sigmoid gate\non residual"] -->|zeroes delta\nearly in training| B["🔄 Replaced with\ntanh residual\nbounded ±1"]
@@ -392,14 +392,14 @@ flowchart LR
     E["❌ Mean/Std\nNormalization"] -->|low-light stats\nmismatch high GT| F["✅ Raw 0,1 space\nToTensor only"]
     G["❌ Fixed U-Net\nwithout padding"] -->|400×600 not div\nby 16 → crash| H["✅ Reflect pad\nto 16× boundary\ncrop on output"]
 
-    style A fill:#4a0000,stroke:#e74c3c,color:#fff
-    style C fill:#4a0000,stroke:#e74c3c,color:#fff
-    style E fill:#4a0000,stroke:#e74c3c,color:#fff
-    style G fill:#4a0000,stroke:#e74c3c,color:#fff
-    style B fill:#0a3a0a,stroke:#2ecc71,color:#fff
-    style D fill:#0a3a0a,stroke:#2ecc71,color:#fff
-    style F fill:#0a3a0a,stroke:#2ecc71,color:#fff
-    style H fill:#0a3a0a,stroke:#2ecc71,color:#fff
+    style A fill:#3a0000,stroke:#e74c3c,color:#e8f4fc
+    style C fill:#3a0000,stroke:#e74c3c,color:#e8f4fc
+    style E fill:#3a0000,stroke:#e74c3c,color:#e8f4fc
+    style G fill:#3a0000,stroke:#e74c3c,color:#e8f4fc
+    style B fill:#0a3a0a,stroke:#2ecc71,color:#e8f4fc
+    style D fill:#0a3a0a,stroke:#2ecc71,color:#e8f4fc
+    style F fill:#0a3a0a,stroke:#2ecc71,color:#e8f4fc
+    style H fill:#0a3a0a,stroke:#2ecc71,color:#e8f4fc
 ```
 
 </div>
@@ -454,11 +454,11 @@ If you use this work, please cite:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer&text=Category%201%20Complete%20%E2%80%94%20Low-Level%20Vision&fontSize=20&fontColor=7C6AF7&fontAlignY=65&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4facde,30:1a6b9a,60:0d2137,100:0a1628&height=120&section=footer&text=Category%201%20Complete%20%E2%80%94%20Low-Level%20Vision&fontSize=20&fontColor=e8f4fc&fontAlignY=65&animation=fadeIn" width="100%"/>
 
 <br/>
 
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=yourusername.low-light-enhancement&style=for-the-badge&color=7C6AF7)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=yourusername.low-light-enhancement&style=for-the-badge&color=1a6b9a)
 
 **Built with discipline. Measured honestly. Deployed with purpose.**
 
